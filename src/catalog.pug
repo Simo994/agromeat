@@ -1,0 +1,74 @@
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="styles/style.css")
+        title Каталог
+    body 
+        include modules/header.pug
+        section.catalog
+            .wrapper 
+                h1 Говядина
+                .catalog-line
+                    .catalog-line__block 
+                        a(href="")
+                            img(src="images/meat1.png", alt="meat")
+                        p.name Стейк из окорока говяжий
+                    .catalog-line__block 
+                        a(href="")
+                            img(src="images/meat2.png", alt="meat")
+                        p.name Мясо говяжье 
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/meat3.png", alt="meat")
+                        p.name Говяжьи ребрышки 
+        section.catalog
+            .wrapper 
+                h1 Свинина
+                .catalog-line
+                    .catalog-line__block
+                        a(href="") 
+                            img(src="images/pork1.png", alt="pork")
+                        p.name Стейк из окорока говяжий
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/pork2.png", alt="pork")
+                        p.name Стейк из окорока говяжий
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/pork3.png", alt="pork")
+                        p.name Стейк из окорока говяжий\
+        section.catalog
+            .wrapper 
+                h1 Курица
+                .catalog-line
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/chick1.png", alt="chick")
+                        p.name Курица целиком
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/chick2.png", alt="chick")
+                        p.name Куриные ножки
+                    .catalog-line__block
+                        a(href="")
+                            img(src="images/chick3.png", alt="chick")
+                        p.name Куриные крылышки 
+        section.catalog
+            .wrapper 
+                h1 Колабсы
+                .catalog-line
+                    .catalog-line__block 
+                        a(href="")
+                            img(src="images/ham1.png", alt="ham")
+                        p.name Салями
+                    .catalog-line__block 
+                        a(href="")
+                            img(src="images/ham2.png", alt="ham")
+                        p.name Варёно-копчёная
+                    .catalog-line__block 
+                        a(href="")
+                            img(src="images/ham3.png", alt="ham")
+                        p.name Варёная 
+        include modules/footer.pug                        
